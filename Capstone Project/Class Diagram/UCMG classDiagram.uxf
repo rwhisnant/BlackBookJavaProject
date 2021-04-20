@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>20</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>**/mainMenu/**
+--
+- searchCar: String
+- updateSystem: String
+- addCar: String
+- removeCar: String
+--
++ getSearchCar()
++ setSearchCar()
++ getUpdateSystem()
++ setUpdateSystem()
++ getAddCar()
++ setAddCar()
++ getRemoveCar()
++ setRemoveCar()
+
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>240</y>
+      <w>30</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>390</y>
+      <w>210</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>**/Car/**
+--
+-	carManufacturer: String
+-	carYear: int
+-	carModel: String
+-	carVIN: int
+-	carBodyStyle: String
+-	carValue: double
+--
++ getManufacturer()
++ setManufacturer()
++ getYear()
++ setYear()
++ getModel()
++ setModel()
++ getVIN()
++ setVIN()
++ getBodyStyle()
++ setBodyStyle()
++ getValue()
++ setValue()
+
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>470</y>
+      <w>210</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>**/addCar/**
+--
+-	addManufacturer: String
+-	addYear: int
+-	addModel: String
+-	addVIN: int
+-	addBodyStyle: String
+-	addValue: double
+--
++ getManufacturer()
++ setManufacturer()
++ getYear()
++ setYear()
++ getModel()
++ setModel()
++ getVIN()
++ setVIN()
++ getBodyStyle()
++ setBodyStyle()
++ getValue()
++ setValue()
+
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>470</y>
+      <w>210</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>**/removeCar/**
+--
+-	removeManufacturer: String
+-	removeYear: int
+-	removeModel: String
+-	removeVIN: int
+-	removeBodyStyle: String
+-	removeValue: double
+--
++ getManufacturer()
++ setManufacturer()
++ getYear()
++ setYear()
++ getModel()
++ setModel()
++ getVIN()
++ setVIN()
++ getBodyStyle()
++ setBodyStyle()
++ getValue()
++ setValue()
+
+
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>240</y>
+      <w>190</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>170.0;230.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>240</y>
+      <w>170</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;230.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>50</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>**/searchCar/**
+--
+-	searchManufacturer: String
+-	searchYear: int
+-	searchModel: String
+--
++ loadsData()
++ readsData()
++ savesData()
++ getManufacturer()
++ setManufacturer()
++ getYear()
++ setYear()
++ getModel()
++ setModel()
+
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>60</y>
+      <w>210</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>**/updateSystem/**
+--
+-	updateManufacturer: String
+-	updateYear: int
+-	updateModel: String
+-	updateVIN: int
+-	updateBodyStyle: String
+-	updateValue: double
+
+--
++ getManufacturer()
++ setManufacturer()
++ getYear()
++ setYear()
++ getModel()
++ setModel()
++ getVIN()
++ setVIN()
++ getBodyStyle()
++ setBodyStyle()
++ getValue()
++ setValue()
+
+
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>100</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>120</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
